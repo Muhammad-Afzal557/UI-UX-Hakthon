@@ -2,20 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+ 
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+@layer base {
+  body {
+    color: #fff;
+    background-color: #0D0D0D;
+    background-image: url(/d927785.jpeg);
+    background-size:cover;
+    background-size: center;
+    object-fit: cover;
+    overflow-x: hidden;
+    background-color: #0D0D0D;
+    
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* .backgroundImage {
+      width: 700px;
+      height: 300px;
+  } */
 }
